@@ -1,0 +1,215 @@
+Script started on Mon 16 Mar 2020 04:47:23 PM HST
+]0;buccatm@uhx02:~/project1[?1034huhx02:/home/b/buccatm/project1% ./getreport.sh
+* 69e79bb [31m (HEAD, Project1) [32m2020-03-14 [34mMarcos Buccat Jr [mFixed most of the checkstlye errors
+* 72f9162 [31m [32m2020-03-14 [34mMarcos Buccat Jr [mFixed a bug
+* 2677797 [31m [32m2020-03-14 [34mMarcos Buccat Jr [mTypo in getreport.sh
+* 6bad449 [31m (master) [32m2020-03-14 [34mMarcos Buccat Jr [mProject 1
+# On branch Project1
+nothing to commit, working directory clean
+total 156
+drwxr-xr-x.  3 buccatm uh   237 Mar 16 16:47 .
+drwx-----x. 18 buccatm uh  8192 Mar 16 16:41 ..
+-rw-r--r--.  1 buccatm uh     0 Mar 14 13:48 add.txt
+-rw-r--r--.  1 buccatm uh 30151 Mar 14 19:08 database.c
+-rw-r--r--.  1 buccatm uh  1030 Mar 14 18:51 database.h
+-rw-r--r--.  1 buccatm uh 20576 Mar 16 16:47 database.o
+-rwxr-xr-x.  1 buccatm uh   154 Mar 14 11:59 getreport.sh
+drwxr-xr-x.  8 buccatm uh   166 Mar 16 16:47 .git
+-rw-r--r--.  1 buccatm uh    47 Mar 14 11:41 .gitignore
+-rw-r--r--.  1 buccatm uh   263 Mar 14 11:39 Makefile
+-rwxr-xr-x.  1 buccatm uh 25928 Mar 16 16:47 project
+-rw-r--r--.  1 buccatm uh     0 Mar 16 16:47 proof.txt
+-rw-r--r--.  1 buccatm uh   649 Mar 14 11:32 record.h
+-rw-r--r--.  1 buccatm uh 22215 Mar 14 19:35 user_interface.c
+-rw-r--r--.  1 buccatm uh 15120 Mar 16 16:47 user_interface.o
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o project database.o user_interface.o
+]0;buccatm@uhx02:~/project1uhx02:/home/b/buccatm/project1% ./ma[K[Kproject
+
+	The Bank Interface
+Welcome to the Bank Menue
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 1
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 8906
+
+Enter Name: marcos buccat jr.
+Enter '$' to input the Address
+Enter Address: 5555 Dole Dri.,
+Honolulu, HI ZIP$
+
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 1
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 856
+
+Enter Name: Name Two
+Enter '$' to input the Address
+Enter Address: ADDRESS Two$
+
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 1
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 7777    856
+
+Enter Name: name three
+Enter '$' to input the Address
+Enter Address: ADDRESS
+HREE$
+
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 3
+
+RECORD #1
+Accountno: 8906
+Name: marcos buccat jr.
+Address: 5555 Dole Dri.,
+Honolulu, HI ZIP
+
+RECORD #2
+Accountno: 856
+Name: Name Two
+Address: ADDRESS Two
+
+RECORD #3
+Accountno: 856
+Name: name three
+Address: ADDRESS
+HREE
+
+Number of Records in list: 3
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 2
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 856
+Accountno: 856
+Name: Name Two
+Address: ADDRESS Two
+
+Accountno: 856
+Name: name three
+Address: ADDRESS
+HREE
+
+Number of Record Printed with account# 856: 2
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 6 5
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 856
+Records Removed: 2
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 3
+
+RECORD #1
+Accountno: 8906
+Name: marcos buccat jr.
+Address: 5555 Dole Dri.,
+Honolulu, HI ZIP
+
+Number of Records in list: 1
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 5
+
+	Account number must be Integers greater than '0'.
+Enter Account number: 8906
+Records Removed: 1
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 3
+
+Record is Empty!
+Number of Records in list: 0
+
+Enter the following options
+	Enter '1' to add a record
+	Enter '2' to print a record
+	Enter '3' to print all records
+	Enter '4' to modify a record
+	Enter '5' to remove a record
+	Enter '6' to exit the program
+
+Enter an option: 6
+
+
+	Exiting program
+]0;buccatm@uhx02:~/project1uhx02:/home/b/buccatm/project1% exit
+exit
+
+Script done on Mon 16 Mar 2020 04:49:19 PM HST
